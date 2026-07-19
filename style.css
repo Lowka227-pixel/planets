@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+* {
+  margin: 0;
+}
+header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 0;
+  background: #9a9a9a;
+}
+header a {
+  margin-right: 190px;
+  font-weight: 500;
+  font-size: 36px;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0px 14px 100px 9px rgba(0, 251, 255, 0.3);
+  background-color: rgba(0, 251, 255, 0.8);
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-family: "Source Serif 4", serif;
+}
+.logo {
+  position: absolute;
+  width: 352px;
+  height: 109px;
+  left: 82px;
+  top: 17px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -4px;
+  top: 99px;
+  font-family: "Source Serif 4", serif;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 1280px;
+  background-color: #7a7a7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 36px;
+}
+#bg {
+  width: 110%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#article1 {
+  position: absolute;
+  width: 500px;
+  height: 260px;
+  left: 730px;
+  top: 172px;
+  background-color: #9a9a9a;
+  border-radius: 50px;
+  font-size: 36px;
+  background-color: #cacaca;
+}
+#article1 p {
+  padding: 10px 20px;
+}
+#article2 p {
+  padding: 10px 20px;
+}
+#article2 {
+  background-color: #cacaca;
+  position: absolute;
+  width: 997px;
+  height: 620px;
+  left: 490px;
+  top: 498px;
+  border-radius: 50px;
+  font-size: 36px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+
+}
